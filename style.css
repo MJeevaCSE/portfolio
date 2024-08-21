@@ -1,0 +1,269 @@
+body{
+    background-color: black;
+}
+.container {
+    max-width:none;
+    margin: 0 auto;
+    padding: 0%;
+}
+
+header {
+    text-align: center;
+    padding: 50px 0;
+}
+header {
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 50px;
+}
+header .logo {
+    font-size: 24px;
+    color: orangered;
+    font-weight: bold;
+    font-size: 50px;
+}
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+nav a.contact {
+    background-color: orangered;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.hero {
+   
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding:70px;
+}
+.hero h1 {
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight: 100;
+    
+}
+.hero p {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+
+.profile img {
+    width: 300px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.profile h1 {
+    font-size: 60px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.profile p {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 30px;
+    line-height: 1.6;
+}
+
+.resume-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.resume-button:hover {
+    background-color:red;
+}
+
+.portfolio {
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+
+.portfolio h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.portfolio p {
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: white;
+}
+.project.h3{
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: black;
+}
+.projects .p{
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+
+.projects {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.project {
+    width: 30%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 50px;
+}
+.project img{
+    width: 150px;
+    border-radius: 20%;
+    margin-bottom: 20px;
+
+}
+
+.project h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.project p {
+    font-size: 16px;
+    color: black;
+}
+#skills {
+    padding: 50px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+#skills h2,h3{
+    font-size: 45px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.technical-skills, .languages {
+    width: 45%;
+}
+
+.technical-skills ul, .languages ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+}
+
+.technical-skills ul li, .languages ul li {
+    margin: 10px 0;
+}
+
+.skill-bar {
+    display: inline-block;
+    width: 60%;
+    height: 10px;
+    background-color: white;
+    margin-left: 10px;
+    position: relative;
+}
+
+.skill-bar span {
+    display: block;
+    height: 100%;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.skill-bar .html {
+    width: 70%;
+    font-size: 100px;
+}
+
+.skill-bar .css {
+    width: 70%;
+}
+
+.skill-bar .java {
+    width: 70%;
+}
+
+.skill-bar .javascript {
+    width: 50%;
+}
+
+.skill-bar .angular {
+    width: 50%;
+}
+
+.skill-bar .english {
+    width: 100%;
+}
+
+.skill-bar .kannada {
+    width: 100%;
+}
+
+.skill-bar .hindi {
+    width: 50%;
+}
+
+footer {
+    padding: 50px 20px;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+footer form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer input, footer textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 2px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer button {
+    background-color: orangered;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
